@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste des communes</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Choisissez une région et un département</h1>
+        <label for="regions">Région:</label>
+        <select id="regions">
+            <option value="">Sélectionner une région</option>
+        </select>
+        <label for="departements">Département:</label>
+        <select id="departements">
+            <option value="">Sélectionner un département</option>
+        </select>
+        <button id="show-communes">Afficher les communes</button>
+        <div id="communes-list">
+        </div>
+        <button id="geolocate">Géolocaliser ma ville</button>
+        <div id="city-info">
+        </div>
+    </div>
+</body>
+
+</html>
